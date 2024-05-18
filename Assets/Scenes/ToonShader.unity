@@ -417,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 187904287186049807, guid: d674b564acadde849a2cd28ce63525a8,
         type: 3}
       propertyPath: m_Name
-      value: FreeSample_male_1
+      value: Male Basic
       objectReference: {fileID: 0}
     - target: {fileID: 707136990861001141, guid: d674b564acadde849a2cd28ce63525a8,
         type: 3}
@@ -950,7 +950,7 @@ PrefabInstance:
     - target: {fileID: 187904287186049807, guid: d674b564acadde849a2cd28ce63525a8,
         type: 3}
       propertyPath: m_Name
-      value: Male
+      value: Male With Shader
       objectReference: {fileID: 0}
     - target: {fileID: 707136990861001141, guid: d674b564acadde849a2cd28ce63525a8,
         type: 3}
