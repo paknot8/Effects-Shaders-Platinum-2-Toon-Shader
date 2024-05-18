@@ -22,11 +22,11 @@ public class DayNightTime : MonoBehaviour
             }
 
             // Check if the rotation has reached the limits and reverse direction
-            if (currentXRotation >= 100f)
+            if (currentXRotation >= 50f)
             {
                 rotatingForward = false; // Reverse direction to backward
             }
-            else if (currentXRotation <= -100f)
+            else if (currentXRotation <= -50f)
             {
                 rotatingForward = true; // Reverse direction to forward
             }
