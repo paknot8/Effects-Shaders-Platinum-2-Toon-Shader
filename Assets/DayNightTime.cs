@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DayNightTime : MonoBehaviour
 {
-    public float rotationSpeed = 10f; // Speed of rotation
+    private readonly float rotationSpeed = 30f; // Speed of rotation
     private bool rotatingForward = true; // Direction of rotation
 
     // Update is called once per frame
@@ -18,11 +18,11 @@ public class DayNightTime : MonoBehaviour
         }
 
         // Check if the rotation has reached the limits and reverse direction
-        if (currentXRotation >= 50f)
+        if (currentXRotation >= 100f)
         {
             rotatingForward = false; // Reverse direction to backward
         }
-        else if (currentXRotation <= -10f)
+        else if (currentXRotation <= -100f)
         {
             rotatingForward = true; // Reverse direction to forward
         }
